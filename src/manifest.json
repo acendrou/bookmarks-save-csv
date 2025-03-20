@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "BOOKMARKS-SAVE-CSV",
+  "version": "0.1",
+  "description": "Save/Export bookmarks into csv file format (all or branches)",
+  "author": "acendrou",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "bookmarks",
+    "contextMenus",
+    "downloads"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bookmarks-save-csv@ekvidi"
+    }
+  }
+}
