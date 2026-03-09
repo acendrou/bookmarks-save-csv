@@ -146,7 +146,7 @@ function listener_clicked_Menus(info) {
             save_branch_bookmarks({base_bookmark:info.bookmarkId, is_csv:false, sep_is_semicolon:true, sep_is_tab:false, is_url_only:false})
             break;
         case "bookmarks-save-csv-12":
-            save_branch_bookmarks({base_bookmark:info.bookmarkId, is_csv:false, sep_is_semicolon:true, sep_is_tab:true, is_url_only:true})
+            save_branch_bookmarks({base_bookmark:info.bookmarkId, is_csv:true, sep_is_semicolon:true, sep_is_tab:true, is_url_only:true})
             break;
         case "bookmarks-save-csv-13":
             save_branch_bookmarks({base_bookmark:info.bookmarkId, is_csv:false, sep_is_semicolon:true, sep_is_tab:false, is_url_only:true})
